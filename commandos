@@ -1,0 +1,15 @@
+<== Shell ==>
+!$ - pega parâmetro do comando anterior. Ex. comando ant. "vi hello.c" = "vi !$"
+
+!gcc - localiza o último comando, indicado após !, e executa. Ex. gcc -o hello hello.c  
+
+<== Vim ===>
+q - sair
+
+q! - sair sem salvar alterações 
+
+w - salvar
+
+wq - salvar e sair
+
+o - cria nova linha abaixo do cursor e habilita modo insert
