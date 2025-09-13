@@ -3,9 +3,9 @@
 ## <=== Tmux ===>
 Ctrl + B = ^ - Master key
 
-** ^ + c ** - Create new windows
-** ^ + n ** - Switch next windows
-** ^ + p ** - Switch previous 
+**^ + c** - Create new windows
+**^ + n** - Switch next windows
+**^ + p** - Switch previous 
 ^ + Number session - Switch to specific windows
 
 ^ + " - Mode horizintal
