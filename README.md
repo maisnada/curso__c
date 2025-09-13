@@ -3,9 +3,9 @@
 ## <=== Tmux ===>
 Ctrl + B = ^ - Master key
 
-^ + c - Create new windows
-^ + n - Switch next windows
-^ + p - Switch previous 
+** ^ + c ** - Create new windows
+** ^ + n ** - Switch next windows
+** ^ + p ** - Switch previous 
 ^ + Number session - Switch to specific windows
 
 ^ + " - Mode horizintal
@@ -49,4 +49,4 @@ hd - display file contents in hex, dec, octal or ascii. Ex. echo test | hd
 
 * Channel YT [Mente binária](https://www.youtube.com/@mentebinaria)
 * [GNU C Language introduction and reference manual - Translate to portuguese](https://mentebinaria.gitbook.io/manual-da-linguagem-gnu-c) 
-* [GNU C Language introduction and reference manual](https://mentebinaria.gitbook.io/manual-da-linguagem-gnu-c) 
+* [GNU C Language introduction and reference manual](https://www.gnu.org/software/c-intro-and-ref/) 
