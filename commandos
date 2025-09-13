@@ -1,15 +1,34 @@
-<== Shell ==>
-!$ - pega parâmetro do comando anterior. Ex. comando ant. "vi hello.c" = "vi !$"
+<=== Tmux ===>
+Ctrl + B = ^ - Master key
 
-!gcc - localiza o último comando, indicado após !, e executa. Ex. gcc -o hello hello.c  
+^ + c - Create new windows
+^ + n - Switch next windows
+^ + p - Switch previous 
+^ + Number session - Switch to specific windows
 
-<== Vim ===>
-q - sair
+^ + " - Mode horizintal
+^ + % - Mode vertical
+^ + Direct - Switch a windows
 
-q! - sair sem salvar alterações 
+^ + d - Detached session
+tmux ls - List session detached
+tmux a -t + Number session - To back specific session
 
-w - salvar
 
-wq - salvar e sair
+<=== Shell ===>
+!$ - Gets the parameter from the previous command. Ex. previus com. "vi hello.c" = "vi !$"
 
-o - cria nova linha abaixo do cursor e habilita modo insert
+!gcc - Find last command before ! and run. Ex. gcc -o hello hello.c  
+locate + file - Show locale file
+echo $! - This is a special variable. It stores the PID of the last command that was run in the background
+
+<=== Vim ===>
+q - Quit
+q! - Quit without saving changes 
+
+w - Save
+wq || x - Save and exit
+
+o - Creates new line under cursor and enable mode insert
+dd - Delete a line where it the cursor
+
