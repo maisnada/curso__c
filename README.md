@@ -1,12 +1,17 @@
 # Language c, shell and commands useful
 
 ## <=== Tmux ===>
-Ctrl + B = ^ - Master key
+**Ctrl + B** = ^ (Master key)
 
 **^ + c** - Create new windows
+
 **^ + n** - Switch next windows
-**^ + p** - Switch previous 
-^ + Number session - Switch to specific windows
+
+**^ + p** - Switch previous
+ 
+**^ + Number session** - Switch to specific windows
+
+
 
 ^ + " - Mode horizintal
 ^ + % - Mode vertical
