@@ -43,7 +43,7 @@
 
 **w** - Save
 
-**wq** || x - Save and exit
+**wq || x** - Save and exit
 
 **o** - Creates new line under cursor and enable mode insert
 
@@ -52,11 +52,14 @@
 **hd** - display file contents in hex, dec, octal or ascii. Ex. echo test | hd
 
 ## Class
-* class_1 - initial struct program and function printf;
-
-
+* class_1 - Initial struct program and function printf;
+* class_2 - Function printf and format data;
+* class_3 - Function scanf for input data;
+* class_4 - Scanf with string, int and float. Constant variable #define;
+ 
 ## References
 
 * Channel YT [Mente binária](https://www.youtube.com/@mentebinaria)
 * [GNU C Language introduction and reference manual - Translate to portuguese](https://mentebinaria.gitbook.io/manual-da-linguagem-gnu-c) 
-* [GNU C Language introduction and reference manual](https://www.gnu.org/software/c-intro-and-ref/) 
+* [GNU C Language introduction and reference manual](https://www.gnu.org/software/c-intro-and-ref/)
+* Channel YT [Prof° Pietro Martins](https://www.youtube.com/@profpietromartins) 
