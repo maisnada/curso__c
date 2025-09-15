@@ -56,7 +56,7 @@
 * class_2 - Function printf and format data;
 * class_3 - Function scanf for input data;
 * class_4 - Scanf with string, int and float. Constant variable #define;
- 
+* class_5 - Color pattern ANSI, IF and concat value with sprintf; 
 ## References
 
 * Channel YT [Mente binária](https://www.youtube.com/@mentebinaria)
