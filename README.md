@@ -19,6 +19,12 @@
 
 **^ + d** - Detached session
 
+**^ + z** - Zoom in and zoom out
+
+**^ + { | } - Move current pan left and right 
+
+**^ + spacebar- Toggle between pane layoutsp
+
 **tmux ls** - List session detached
 
 **tmux a -t + Number session** - To back specific session
