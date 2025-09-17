@@ -62,7 +62,7 @@
 
 **u** - Undo last change
 
-**%s/search_string/replace_string/g** - Replace aal
+**%s/search_string/replace_string/g** - Replace all
 
 
 ## Class
