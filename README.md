@@ -41,8 +41,11 @@
 
 **bc** - Calculate. Default base 10. Change obase and ibase for convertion. Ex. ibase=16 input in hex value and output in decimal; obase=16 input in decimal value and output in hex  
 
+**hd** - Display file contents in hex, dec, octal or ascii. Ex. echo test | hd
+
 
 ## Vim
+
 **q** - Quit
 
 **q!** - Quit without saving changes 
@@ -53,9 +56,14 @@
 
 **o** - Creates new line under cursor and enable mode insert
 
-**dd** - Delete a line where it the cursor
+**dd** - Delete or cut line where it the cursor. To paste type "p"
 
-**hd** - display file contents in hex, dec, octal or ascii. Ex. echo test | hd
+**yy** - Coppy current line. To past type "p"
+
+**u** - Undo last change
+
+**%s/search_string/replace_string/g** - Replace aal
+
 
 ## Class
 * class_1 - Initial struct program and function printf;
@@ -63,6 +71,8 @@
 * class_3 - Function scanf for input data;
 * class_4 - Scanf with string, int and float. Constant variable #define;
 * class_5 - Color pattern ANSI, IF and concat value with sprintf; 
+
+
 ## References
 
 * Channel YT [Mente binária](https://www.youtube.com/@mentebinaria)
