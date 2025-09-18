@@ -3,29 +3,32 @@
 #include <unistd.h>
 #include <string.h>
 
+void showHeader(){
+
+  printf("Loading...\n\n");
+ 
+}
+
 int main(void){
 
   int i = 0;
 
-  char bar[50] = "["; 
-
-  //bar[49] = "]";
+  char bar[49] = "["; 
 
   while(i <= 47){
 
-    printf("%s\n", 2,strcat(bar, ">"));
+    system("clear");
 
+    showHeader();
+        
+    printf("%s",strcat(bar, ">"));
+ 
+    printf("%*s\n", 48 - i, "]");
     
-
     i++;
 
-    sleep(0.8);
+    sleep(1);
   }
-
-  /*
-  system("cls || clear");
-
-  printf("Clear screen complete!\n\n");
-  */
+ 
   return 0;
 }
