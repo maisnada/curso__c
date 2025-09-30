@@ -71,8 +71,8 @@
 * class_3 - Function scanf for input data;
 * class_4 - Scanf with string, int and float. Constant variable #define;
 * class_5 - Color pattern ANSI, IF and concat value with sprintf; 
-* class_6 - Function with parameter and return. Library stdbool.h
-
+* class_6 - Function with parameter and return. Library stdbool.h;
+* class_7 - Loop while, for and do while;
 
 ## References
 
