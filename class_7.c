@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void){
 
@@ -11,7 +12,7 @@ int main(void){
     i++;
   }
 
-  int ages[2];
+  int ages[3];
   int c = 0;
 
   do{
@@ -30,6 +31,35 @@ int main(void){
     printf("Age position %d is %d\n", x, ages[x]);
   }
 
+ 
+  for(int x = 0; x < 3; x++){
+
+    if(x % 2 == 0){
+
+      printf("Position %d even\n", x);
+
+      continue;
+    }
+
+    printf("Position %d odd\n", x);
+  }
+
+  char key;
+
+  do{
+
+    printf("Type 'y' to exit\n");
+
+    scanf("%c", &key);
+
+    if(key == 'y'){
+
+      break;
+    }
+
+  }while(true);
+
+  
   return 0;
 
 }
